@@ -1,0 +1,28 @@
+{
+  "name": "Team-Profile-Generator--Machine",
+  "version": "1.0.0",
+  "description": "This is a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --verbose test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hare-Ball/Team-Profile-Generator--Machine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hare-Ball/Team-Profile-Generator--Machine/issues"
+  },
+  "homepage": "https://github.com/Hare-Ball/Team-Profile-Generator--Machine#readme",
+  "dependencies": {
+    "inquire": "^0.4.8",
+    "inquirer": "^8.1.1",
+    "jest": "^27.0.6"
+  }
+}

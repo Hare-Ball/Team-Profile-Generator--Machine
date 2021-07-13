@@ -1,10 +1,13 @@
-const Employee = require("./employee")
+const Employee = require("./Employee")
 
 class Engineer extends Employee {
     constructor(name, id, email, github){
         super (name, id, title, email)
         this.github = github;
-        this.title = "Engineer"
+    }
+
+    getRole(){
+        return "Engineer"
     }
 
     getGithub(){
