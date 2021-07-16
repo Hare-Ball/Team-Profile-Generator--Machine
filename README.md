@@ -18,7 +18,7 @@ Install Node.js,Inquirer, and Jest npms in order to use this application.
 After completing the installation, type node index.js into the command line of your terminal. Then answer the questions and select a license to use.
 
 Here is a gif showing how to use the application.
-(./Team_Profile_Generator.gif)
+![screencastify of project running in terminal.](./Team_Profile_Generator.gif)
 
 
 # Contributors
