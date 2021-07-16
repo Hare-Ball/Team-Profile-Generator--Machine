@@ -1,5 +1,5 @@
 const { test, expect } = require("@jest/globals")
-const Intern = require("../employeeLibrary/Intern")
+const Intern = require("../lib/Intern")
 
 test("Getting School", ()=>{
     var testSchool = new Intern("George", 6, "george@email.com", "SMU Bootcamp")

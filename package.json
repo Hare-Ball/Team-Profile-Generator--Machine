@@ -22,7 +22,9 @@
   "homepage": "https://github.com/Hare-Ball/Team-Profile-Generator--Machine#readme",
   "dependencies": {
     "inquire": "^0.4.8",
-    "inquirer": "^8.1.1",
+    "inquirer": "^8.1.1"
+  },
+  "devDependencies": {
     "jest": "^27.0.6"
   }
 }

@@ -1,5 +1,5 @@
 const { test, expect } = require("@jest/globals")
-const Engineer = require("../employeeLibrary/Engineer")
+const Engineer = require("../lib/Engineer")
 
 test("Getting GitHub", ()=>{
     var testGithub = new Engineer("Ginny", 8, "ginny@email.com", "EnGinnyEer@github.com")

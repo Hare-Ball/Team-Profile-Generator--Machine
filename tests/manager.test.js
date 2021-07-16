@@ -1,5 +1,5 @@
 const { test, expect } = require("@jest/globals")
-const Manager = require("../employeeLibrary/Manager")
+const Manager = require("../lib/Manager")
 
 test("Getting Office Number", ()=>{
     var testOfficeNumber = new Manager("Bill", 9, "bill@email.com", "Office #101")

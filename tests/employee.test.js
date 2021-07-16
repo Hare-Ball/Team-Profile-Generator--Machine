@@ -1,6 +1,6 @@
 
 const { test, expect } = require("@jest/globals")
-const Employee = require("../employeeLibrary/Employee")
+const Employee = require("../lib/Employee")
 
 test("Testing for the Employee Name", ()=>{
     var testEmployee = new Employee("Fred", 5, "fred@email.com")
