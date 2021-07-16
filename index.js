@@ -34,7 +34,7 @@ function addEmployee() {
                 addIntern();
                 break;
             case "No, Thanks.":
-                generateHTML();
+                generateHTML(employeeTeam);
                 break;
         }
     })

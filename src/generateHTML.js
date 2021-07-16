@@ -1,7 +1,7 @@
 let employeeCards = '';
 
-function generateHTML(allEmployees){
-    allEmployees.forEach(employee =>{
+function generateHTML(employeeTeam){
+    employeeTeam.forEach(employee =>{
          employeeCards += generateCards(employee);
     });
 
